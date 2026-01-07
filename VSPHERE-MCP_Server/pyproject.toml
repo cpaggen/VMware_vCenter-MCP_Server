@@ -1,16 +1,10 @@
 [project]
 name = "vsphere-mcp-server"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "A Model Context Protocol server for finding VMware VMs by MAC address"
 requires-python = ">=3.12"
 dependencies = [
-    "fastmcp>=2.0.0",
+    "fastmcp>=0.1.0",
     "python-dotenv>=1.0.0",
-    "pyvmomi>=9.0.0.0",
-]
-
-[dependency-groups]
-dev = [
-    "pytest>=8.0.0",
+    "pyvmomi>=8.0.0",
 ]
